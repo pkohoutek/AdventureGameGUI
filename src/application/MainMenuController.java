@@ -14,7 +14,7 @@ import javafx.stage.Stage;
 /**
 * Main Menu
 * class that allows the user to start the game, proceed to player movement demo
-*  or exit the game.
+*  or exit the game. 
 */
 
 public class MainMenuController {
