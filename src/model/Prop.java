@@ -12,7 +12,7 @@ public class Prop extends GameObject{//Prop class inherited from GameObject clas
 	 */
 
 	/**
-	 * This is the copy contructor for Prop.
+	 * This is the copy constructor for Prop.
 	 *
 	 * @param prop Prop object to be copied
 	 */
@@ -24,6 +24,7 @@ public class Prop extends GameObject{//Prop class inherited from GameObject clas
 	/**
 	 * The Prop object constructor
 	 * To help place the prop in the respective location and give it the relative decription.
+	 * Inherits the variables from the parent class
 	 * @param des prop description text
 	 * @param x integer representing x position
 	 * @param y integer representing y position
@@ -33,11 +34,5 @@ public class Prop extends GameObject{//Prop class inherited from GameObject clas
 	} 
 	
 	
-	/**
-	 * The getDescription method is a getter method which retrieves the prop description string.
-	 * The prop requires a description for the user to read so that it maintains a purpose.
-	 *
-	 * @return string representing the description of the Prop object
-	 */
 
 }
